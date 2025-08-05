@@ -62,6 +62,7 @@
 }
 
 /* Filters Section */
+<<<<<<< HEAD
 /* catalog.css - Basado en main.css */
 
 /* Filters Section - Siguiendo el patrón de secciones del main.css */
@@ -82,24 +83,27 @@ body {
     margin-bottom: 3rem;
 }
 
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .filters-section {
-    padding: 40px 0;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ddd;
+    background-color: white;
+    padding: 2rem 0;
+    border-bottom: 1px solid white;
 }
 
+
 .filters-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     align-items: start;
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 16px;
 }
 
 .filter-group h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     color: #333;
     font-weight: bold;
@@ -117,12 +121,15 @@ body {
     gap: 0.5rem;
     cursor: pointer;
     padding: 0.3rem 0;
+<<<<<<< HEAD
     padding: 0.5rem 0;
     transition: color 0.3s ease;
 }
 
 .filter-option:hover {
     color: #e74c3c;
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 }
 
 .filter-option input[type="radio"] {
@@ -130,24 +137,28 @@ body {
 }
 
 .filter-option span {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #666;
+<<<<<<< HEAD
     line-height: 1.6;
 
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 }
 
 .sort-select {
     width: 100%;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: #fff;
 }
 
 /* Products Catalog */
 .products-catalog {
     padding: 3rem 0;
+<<<<<<< HEAD
     font-family: 'Arial', sans-serif;
     transition: border-color 0.3s ease;
 }
@@ -164,21 +175,28 @@ body {
 }
 
 .products-catalog .container {
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 48px auto;
+    padding: 0 16px;
 }
 
+<<<<<<< HEAD
 
 /* Products Grid - Usando el mismo patrón que featured-products */
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
-    margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 /* Product Card - Manteniendo el estilo del main.css */
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .product-card {
     background: #fff;
     border-radius: 10px;
@@ -195,6 +213,7 @@ body {
 
 .product-image {
     height: 180px;
+<<<<<<< HEAD
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -207,19 +226,20 @@ body {
 .product-image {
     height: 200px;
     background-color: #333;
+=======
+    background-color: #ffffff;
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     position: relative;
     overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .placeholder-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    text-align: center;
+    max-width: 100%;  
+    max-height: 100%; 
+    object-fit: contain; 
 }
 
 .product-badge {
@@ -228,9 +248,9 @@ body {
     right: 10px;
     background-color: #e74c3c;
     color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
@@ -244,12 +264,15 @@ body {
 
 .product-info h3 {
     font-size: 1.2rem;
+<<<<<<< HEAD
 
     padding: 1.5rem;
 }
 
 .product-info h3 {
     font-size: 1.4rem;
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     margin-bottom: 0.5rem;
     color: #333;
     font-weight: bold;
@@ -257,14 +280,15 @@ body {
 
 .product-description {
     color: #666;
-    margin-bottom: 1rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
 }
 
 .product-specs {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.3rem;
     margin-bottom: 1rem;
 }
 
@@ -288,8 +312,15 @@ body {
     color: #fff;
     border: none;
     padding: 0.8rem 1.2rem;
+<<<<<<< HEAD
     padding: 0.3rem 0.8rem;
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: all 0.3s ease;
     font-size: 0.9rem;
 }
 
@@ -408,6 +439,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 .product-price {
     font-size: 1.5rem;
     font-weight: bold;
@@ -493,3 +525,5 @@ body {
         padding: 1rem;
     }
 }
+=======
+>>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
