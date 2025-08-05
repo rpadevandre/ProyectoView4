@@ -62,9 +62,7 @@
 }
 
 /* Filters Section */
-<<<<<<< HEAD
 /* catalog.css - Basado en main.css */
-
 /* Filters Section - Siguiendo el patrón de secciones del main.css */
 body {
     font-family: 'Arial', sans-serif;
@@ -83,8 +81,6 @@ body {
     margin-bottom: 3rem;
 }
 
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .filters-section {
     background-color: white;
     padding: 2rem 0;
@@ -102,6 +98,9 @@ body {
     padding: 0 16px;
 }
 
+.filter-group{
+    display: flex;
+}
 .filter-group h3 {
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -121,15 +120,12 @@ body {
     gap: 0.5rem;
     cursor: pointer;
     padding: 0.3rem 0;
-<<<<<<< HEAD
     padding: 0.5rem 0;
     transition: color 0.3s ease;
 }
 
 .filter-option:hover {
     color: #e74c3c;
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 }
 
 .filter-option input[type="radio"] {
@@ -139,11 +135,7 @@ body {
 .filter-option span {
     font-size: 0.9rem;
     color: #666;
-<<<<<<< HEAD
     line-height: 1.6;
-
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 }
 
 .sort-select {
@@ -158,7 +150,6 @@ body {
 /* Products Catalog */
 .products-catalog {
     padding: 3rem 0;
-<<<<<<< HEAD
     font-family: 'Arial', sans-serif;
     transition: border-color 0.3s ease;
 }
@@ -175,28 +166,17 @@ body {
 }
 
 .products-catalog .container {
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     max-width: 1200px;
     margin: 48px auto;
     padding: 0 16px;
 }
 
-<<<<<<< HEAD
-
-/* Products Grid - Usando el mismo patrón que featured-products */
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
 }
 
-<<<<<<< HEAD
-/* Product Card - Manteniendo el estilo del main.css */
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
 .product-card {
     background: #fff;
     border-radius: 10px;
@@ -213,7 +193,6 @@ body {
 
 .product-image {
     height: 180px;
-<<<<<<< HEAD
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -226,9 +205,7 @@ body {
 .product-image {
     height: 200px;
     background-color: #333;
-=======
     background-color: #ffffff;
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     position: relative;
     overflow: hidden;
     display: flex; 
@@ -264,15 +241,11 @@ body {
 
 .product-info h3 {
     font-size: 1.2rem;
-<<<<<<< HEAD
-
     padding: 1.5rem;
 }
 
 .product-info h3 {
     font-size: 1.4rem;
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     margin-bottom: 0.5rem;
     color: #333;
     font-weight: bold;
@@ -312,10 +285,7 @@ body {
     color: #fff;
     border: none;
     padding: 0.8rem 1.2rem;
-<<<<<<< HEAD
     padding: 0.3rem 0.8rem;
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -525,5 +495,3 @@ body {
         padding: 1rem;
     }
 }
-=======
->>>>>>> 6957eb1a467f6c181891fde31e0120fbb1b92393
