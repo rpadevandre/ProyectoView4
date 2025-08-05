@@ -63,16 +63,20 @@
 
 /* Filters Section */
 .filters-section {
-    background-color: #f8f9fa;
+    background-color: white;
     padding: 2rem 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid white;
 }
+
 
 .filters-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     align-items: start;
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 16px;
 }
 
 .filter-group h3 {
@@ -117,6 +121,9 @@
 /* Products Catalog */
 .products-catalog {
     padding: 3rem 0;
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 16px;
 }
 
 .products-grid {
@@ -141,20 +148,18 @@
 
 .product-image {
     height: 180px;
-    background-color: #333;
+    background-color: #ffffff;
     position: relative;
     overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .placeholder-img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-align: center;
+    max-width: 100%;  
+    max-height: 100%; 
+    object-fit: contain; 
 }
 
 .product-badge {
