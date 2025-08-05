@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - ProMax Nutrition</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/productos.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>ProMax Nutrition</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html" class="active">Productos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="cart.html" class="cart-btn">Carrito (0)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Catálogo de Productos</h1>
+            <p>Encuentra el suplemento proteico perfecto para tus objetivos</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-container">
+                <div class="filter-group">
+                    <h3>Categorías</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="radio" name="categoria" value="todos" checked>
+                            <span>Todos los Productos</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="categoria" value="whey">
+                            <span>Proteína Whey</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="categoria" value="casein">
+                            <span>Caseína</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="categoria" value="plant">
+                            <span>Proteína Vegetal</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="categoria" value="mass">
+                            <span>Ganadores de Masa</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Rango de Precio</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="radio" name="precio" value="todos" checked>
+                            <span>Todos los Precios</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="precio" value="0-200">
+                            <span>S/ 0 - S/ 200</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="precio" value="200-300">
+                            <span>S/ 200 - S/ 300</span>
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="precio" value="300+">
+                            <span>S/ 300+</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Ordenar Por</h3>
+                    <select class="sort-select">
+                        <option value="featured">Destacados</option>
+                        <option value="price-low">Precio: Menor a Mayor</option>
+                        <option value="price-high">Precio: Mayor a Menor</option>
+                        <option value="name">Nombre A-Z</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-catalog">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Proteínas Whey -->
+                <div class="product-card" data-category="whey" data-price="329">
+                    <div class="product-image">
+                        <div class="placeholder-img">Whey Isolate</div>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Whey Isolate</h3>
+                        <p class="product-description">Proteína de suero aislada 90% pureza, absorción ultra rápida</p>
+                        <div class="product-specs">
+                            <span>25g proteína por porción</span>
+                            <span>Sabor: Chocolate</span>
+                        </div>
+                        <div class="product-price">S/ 329.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="whey" data-price="289">
+                    <div class="product-image">
+                        <div class="placeholder-img">Whey Concentrate</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Whey Concentrate</h3>
+                        <p class="product-description">Proteína de suero concentrada con excelente relación calidad-precio</p>
+                        <div class="product-specs">
+                            <span>24g proteína por porción</span>
+                            <span>Sabor: Vainilla</span>
+                        </div>
+                        <div class="product-price">S/ 289.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="whey" data-price="359">
+                    <div class="product-image">
+                        <div class="placeholder-img">Whey Hydrolyzed</div>
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Whey Hydrolyzed</h3>
+                        <p class="product-description">Proteína hidrolizada pre-digerida para máxima absorción</p>
+                        <div class="product-specs">
+                            <span>26g proteína por porción</span>
+                            <span>Sabor: Fresa</span>
+                        </div>
+                        <div class="product-price">S/ 359.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <!-- Caseínas -->
+                <div class="product-card" data-category="casein" data-price="289">
+                    <div class="product-image">
+                        <div class="placeholder-img">Casein Night</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Casein Night</h3>
+                        <p class="product-description">Caseína micelar de liberación lenta, ideal para la noche</p>
+                        <div class="product-specs">
+                            <span>23g proteína por porción</span>
+                            <span>Sabor: Chocolate</span>
+                        </div>
+                        <div class="product-price">S/ 289.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="casein" data-price="319">
+                    <div class="product-image">
+                        <div class="placeholder-img">Casein Premium</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Casein Premium</h3>
+                        <p class="product-description">Caseína premium con aminoácidos añadidos</p>
+                        <div class="product-specs">
+                            <span>25g proteína por porción</span>
+                            <span>Sabor: Cookies & Cream</span>
+                        </div>
+                        <div class="product-price">S/ 319.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <!-- Proteínas Vegetales -->
+                <div class="product-card" data-category="plant" data-price="249">
+                    <div class="product-image">
+                        <div class="placeholder-img">Plant Power</div>
+                        <div class="product-badge">VEGANO</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Plant Power</h3>
+                        <p class="product-description">Mezcla de proteínas vegetales completas y naturales</p>
+                        <div class="product-specs">
+                            <span>22g proteína por porción</span>
+                            <span>Sabor: Chocolate</span>
+                        </div>
+                        <div class="product-price">S/ 249.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="plant" data-price="269">
+                    <div class="product-image">
+                        <div class="placeholder-img">Pea Protein</div>
+                        <div class="product-badge">VEGANO</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Pea Protein</h3>
+                        <p class="product-description">Proteína de guisante pura, libre de alérgenos</p>
+                        <div class="product-specs">
+                            <span>21g proteína por porción</span>
+                            <span>Sabor: Natural</span>
+                        </div>
+                        <div class="product-price">S/ 269.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <!-- Ganadores de Masa -->
+                <div class="product-card" data-category="mass" data-price="189">
+                    <div class="product-image">
+                        <div class="placeholder-img">Mass Gainer</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Mass Gainer</h3>
+                        <p class="product-description">Ganador de masa con carbohidratos complejos y proteínas</p>
+                        <div class="product-specs">
+                            <span>50g proteína por porción</span>
+                            <span>Sabor: Chocolate</span>
+                        </div>
+                        <div class="product-price">S/ 189.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="mass" data-price="219">
+                    <div class="product-image">
+                        <div class="placeholder-img">Lean Mass</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ProMax Lean Mass</h3>
+                        <p class="product-description">Ganador de masa magra con menos carbohidratos</p>
+                        <div class="product-specs">
+                            <span>40g proteína por porción</span>
+                            <span>Sabor: Vainilla</span>
+                        </div>
+                        <div class="product-price">S/ 219.99</div>
+                        <button class="add-to-cart-btn">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ProMax Nutrition</h3>
+                    <p>Tu aliado en el camino hacia el máximo rendimiento físico.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Envíos</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ProMax Nutrition. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Importar estilos base */
+        @import url('main.css');
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, #000 0%, #333 100%);
+            color: #fff;
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        /* Filters Section */
+        .filters-section {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .filters-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .filter-group h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            padding: 0.3rem 0;
+        }
+
+        .filter-option input[type="radio"] {
+            accent-color: #e74c3c;
+        }
+
+        .filter-option span {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .sort-select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            background-color: #fff;
+        }
+
+        /* Products Catalog */
+        .products-catalog {
+            padding: 3rem 0;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #f0f0f0;
+        }
+
+        .product-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            height: 180px;
+            background-color: #333;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .placeholder-img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
+        .product-badge.premium {
+            background-color: #f39c12;
+        }
+
+        .product-info {
+            padding: 1.2rem;
+        }
+
+        .product-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .product-description {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+            line-height: 1.4;
+        }
+
+        .product-specs {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-specs span {
+            background-color: #f8f9fa;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        .product-price {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+
+        .add-to-cart-btn {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 0.8rem 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .add-to-cart-btn:hover {
+            background-color: #e74c3c;
+            transform: translateY(-1px);
+        }
+
+        /* Active navigation link */
+        .nav-links a.active {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .filters-container {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .filter-group h3 {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters-container {
+                gap: 1rem;
+            }
+
+            .product-card {
+                margin: 0 0.5rem;
+            }
+        }
+    </style>
+</body>
+</html>
